@@ -17,6 +17,7 @@ import com.simibubi.create.AllRecipeTypes;
 import com.simibubi.create.Create;
 import com.simibubi.create.compat.jei.category.BlockCuttingCategory;
 import com.simibubi.create.compat.jei.category.BlockCuttingCategory.CondensedBlockCuttingRecipe;
+import com.simibubi.create.compat.jei.category.BlockzapperUpgradeCategory;
 import com.simibubi.create.compat.jei.category.CreateRecipeCategory;
 import com.simibubi.create.compat.jei.category.CrushingCategory;
 import com.simibubi.create.compat.jei.category.DeployingCategory;
@@ -115,6 +116,11 @@ public class CreateJEI implements IModPlugin {
 			.recipes(() -> IRecipeType.BLASTING)
 			.removeRecipes(() -> IRecipeType.SMOKING)
 			.catalystStack(ProcessingViaFanCategory.getFan("fan_blasting"))
+			.build(),
+
+		blockzapper = register("blockzapper_upgrade", BlockzapperUpgradeCategory::new)
+			.recipes(AllRecipeTypes.BLOCKZAPPER_UPGRADE.serializer.getRegistryName())
+			.catalyst(AllItems.BLOCKZAPPER::get)
 			.build(),
 
 		mixing = register("mixing", MixingCategory::standard).recipes(AllRecipeTypes.MIXING::getType)
@@ -222,8 +228,13 @@ public class CreateJEI implements IModPlugin {
 	}
 
 	@Override
+<<<<<<< HEAD
 	public void registerRecipeTransferHandlers(IRecipeTransferRegistration registration) {
 		registration.addRecipeTransferHandler(new BlueprintTransferHandler(), VanillaRecipeCategoryUid.CRAFTING);
+=======
+	public void registerItemSubtypes(ISubtypeRegistration registration) {
+		registration.useNbtForSubtypes(AllItems.BLOCKZAPPER.get());
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	}
 
 	@Override

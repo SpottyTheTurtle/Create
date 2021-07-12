@@ -20,6 +20,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.UseAction;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.nbt.NBTUtil;
@@ -45,7 +46,8 @@ import net.minecraftforge.fml.DistExecutor;
 public abstract class ZapperItem extends Item {
 
 	public ZapperItem(Properties properties) {
-		super(properties.maxStackSize(1));
+		super(properties.maxStackSize(1)
+			.rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -58,7 +60,7 @@ public abstract class ZapperItem extends Item {
 				.getBlock()
 				.getTranslationKey();
 			ItemDescription.add(tooltip,
-				Lang.translate("terrainzapper.usingBlock",
+				Lang.translate("blockzapper.usingBlock",
 					new TranslationTextComponent(usedblock).formatted(TextFormatting.GRAY))
 					.formatted(TextFormatting.DARK_GRAY));
 		}
@@ -126,9 +128,14 @@ public abstract class ZapperItem extends Item {
 		// Check if can be used
 		ITextComponent msg = validateUsage(item);
 		if (msg != null) {
+<<<<<<< HEAD
 			AllSoundEvents.DENY.play(world, player, player.getBlockPos());
 			player.sendStatusMessage(msg.copy()
 				.formatted(TextFormatting.RED), true);
+=======
+			AllSoundEvents.BLOCKZAPPER_DENY.play(world, player, player.getBlockPos());
+			player.sendStatusMessage(msg.copy().formatted(TextFormatting.RED), true);
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 			return new ActionResult<>(ActionResultType.FAIL, item);
 		}
 
@@ -179,7 +186,7 @@ public abstract class ZapperItem extends Item {
 	public ITextComponent validateUsage(ItemStack item) {
 		CompoundNBT tag = item.getOrCreateTag();
 		if (!canActivateWithoutSelectedBlock(item) && !tag.contains("BlockUsed"))
-			return Lang.createTranslationTextComponent("terrainzapper.leftClickToSet");
+			return Lang.createTranslationTextComponent("blockzapper.leftClickToSet");
 		return null;
 	}
 

@@ -5,8 +5,6 @@ public enum TerrainBrushes {
 	Cuboid(new CuboidBrush()),
 	Sphere(new SphereBrush()),
 	Cylinder(new CylinderBrush()),
-	Surface(new DynamicBrush(true)),
-	Cluster(new DynamicBrush(false)),
 	
 	;
 	
@@ -17,6 +15,10 @@ public enum TerrainBrushes {
 	}
 
 	public Brush get() {
+//		if (this == Cylinder)
+//			brush = new CylinderBrush();
+//		if (this == Sphere)
+//			brush = new SphereBrush();
 		return brush;
 	}
 

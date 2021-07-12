@@ -158,14 +158,22 @@ public class StandardRecipeGen extends CreateRecipeProvider {
 
 	private Marker CURIOSITIES = enterSection(AllSections.CURIOSITIES);
 
-	GeneratedRecipe WAND_OF_SYMMETRY = create(AllItems.WAND_OF_SYMMETRY).unlockedBy(I::refinedRadiance)
+	GeneratedRecipe DEFORESTER = create(AllItems.DEFORESTER).unlockedBy(I::refinedRadiance)
 		.viaShaped(b -> b.key('E', I.refinedRadiance())
-			.key('G', Tags.Items.GLASS_PANES_WHITE)
+			.key('G', I.cog())
 			.key('O', Tags.Items.OBSIDIAN)
-			.key('L', I.brass())
-			.patternLine(" GE")
-			.patternLine("LEG")
-			.patternLine("OL ")),
+			.patternLine("EG")
+			.patternLine("EO")
+			.patternLine(" O")),
+
+		WAND_OF_SYMMETRY = create(AllItems.WAND_OF_SYMMETRY).unlockedBy(I::refinedRadiance)
+			.viaShaped(b -> b.key('E', I.refinedRadiance())
+				.key('G', Tags.Items.GLASS_PANES_WHITE)
+				.key('O', Tags.Items.OBSIDIAN)
+				.key('L', I.brass())
+				.patternLine(" GE")
+				.patternLine("LEG")
+				.patternLine("OL ")),
 
 		MINECART_COUPLING = create(AllItems.MINECART_COUPLING).unlockedBy(I::andesite)
 			.viaShaped(b -> b.key('E', I.andesite())
@@ -174,11 +182,21 @@ public class StandardRecipeGen extends CreateRecipeProvider {
 				.patternLine(" O ")
 				.patternLine("E  ")),
 
+<<<<<<< HEAD
 		PECULIAR_BELL = create(AllBlocks.PECULIAR_BELL).unlockedByTag(I::brass)
 			.viaShaped(b -> b.key('I', I.brassBlock())
 				.key('P', I.brassSheet())
 				.patternLine("I")
 				.patternLine("P"))
+=======
+		BLOCKZAPPER = create(AllItems.BLOCKZAPPER).unlockedBy(I::refinedRadiance)
+			.viaShaped(b -> b.key('E', I.refinedRadiance())
+				.key('A', I.andesite())
+				.key('O', Tags.Items.OBSIDIAN)
+				.patternLine("  E")
+				.patternLine(" O ")
+				.patternLine("OA "))
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	;
 

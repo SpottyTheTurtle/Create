@@ -53,14 +53,19 @@ public class ZapperRenderHandler extends ShootableGadgetRenderHandler {
 		ms.multiply(Vector3f.POSITIVE_Y.getDegreesQuaternion(flip * 5.0F));
 	}
 
+<<<<<<< HEAD
 	@Override
 	protected void transformHand(MatrixStack ms, float flip, float equipProgress, float recoil, float pt) {}
 
 	@Override
 	protected void playSound(Hand hand, Vector3d position) {
 		float pitch = hand == Hand.MAIN_HAND ? 0.1f : 0.9f;
+=======
+	public static void playSound(Hand hand, BlockPos position) {
+		float pitch = hand == Hand.MAIN_HAND ? 2f : 0.9f;
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 		Minecraft mc = Minecraft.getInstance();
-		AllSoundEvents.WORLDSHAPER_PLACE.play(mc.world, mc.player, position, 0.1f, pitch);
+		AllSoundEvents.BLOCKZAPPER_PLACE.play(mc.world, mc.player, position, 0.8f, pitch);
 	}
 
 	public void addBeam(LaserBeam beam) {

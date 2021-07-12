@@ -32,8 +32,11 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.item.DyeColor;
+<<<<<<< HEAD
 import net.minecraft.item.Rarity;
 import net.minecraft.state.properties.BlockStateProperties;
+=======
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 import net.minecraft.state.properties.PistonType;
 import net.minecraft.util.Direction;
 import net.minecraft.util.Direction.Axis;
@@ -214,7 +217,10 @@ public class BuilderTransformers {
 					});
 			})
 			.item()
+<<<<<<< HEAD
 			.properties(p -> type.equals("creative") ? p.rarity(Rarity.EPIC) : p)
+=======
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 			.transform(ModelGen.customItemModel("crate", type, "single"));
 	}
 

@@ -36,13 +36,23 @@ import com.simibubi.create.content.curiosities.armor.DivingBootsItem;
 import com.simibubi.create.content.curiosities.armor.DivingHelmetItem;
 import com.simibubi.create.content.curiosities.symmetry.SymmetryWandItem;
 import com.simibubi.create.content.curiosities.symmetry.client.SymmetryWandModel;
+<<<<<<< HEAD
 import com.simibubi.create.content.curiosities.tools.BlueprintItem;
+=======
+import com.simibubi.create.content.curiosities.tools.DeforesterItem;
+import com.simibubi.create.content.curiosities.tools.DeforesterModel;
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 import com.simibubi.create.content.curiosities.tools.ExtendoGripItem;
 import com.simibubi.create.content.curiosities.tools.ExtendoGripModel;
 import com.simibubi.create.content.curiosities.tools.SandPaperItem;
 import com.simibubi.create.content.curiosities.tools.SandPaperItemRenderer.SandPaperModel;
+<<<<<<< HEAD
 import com.simibubi.create.content.curiosities.weapons.PotatoCannonItem;
 import com.simibubi.create.content.curiosities.weapons.PotatoCannonModel;
+=======
+import com.simibubi.create.content.curiosities.zapper.blockzapper.BlockzapperItem;
+import com.simibubi.create.content.curiosities.zapper.blockzapper.BlockzapperModel;
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 import com.simibubi.create.content.curiosities.zapper.terrainzapper.WorldshaperItem;
 import com.simibubi.create.content.curiosities.zapper.terrainzapper.WorldshaperModel;
 import com.simibubi.create.content.logistics.item.LinkedControllerItem;
@@ -237,6 +247,7 @@ public class AllItems {
 	public static final ItemEntry<MinecartContraptionItem> MINECART_CONTRAPTION =
 		REGISTRATE.item("minecart_contraption", MinecartContraptionItem::rideable)
 			.register();
+<<<<<<< HEAD
 
 	public static final ItemEntry<MinecartContraptionItem> FURNACE_MINECART_CONTRAPTION =
 		REGISTRATE.item("furnace_minecart_contraption", MinecartContraptionItem::furnace)
@@ -286,6 +297,8 @@ public class AllItems {
 			.register();
 
 	public static final ItemEntry<? extends CopperArmorItem>
+=======
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	COPPER_BACKTANK =
 		REGISTRATE
@@ -318,6 +331,47 @@ public class AllItems {
 			.model(AssetLookup.existingItemModel())
 			.register();
 
+<<<<<<< HEAD
+=======
+	// Curiosities
+
+	static {
+		REGISTRATE.startSection(CURIOSITIES);
+	}
+
+	public static final ItemEntry<TreeFertilizerItem> TREE_FERTILIZER =
+		REGISTRATE.item("tree_fertilizer", TreeFertilizerItem::new)
+			.register();
+
+	public static final ItemEntry<BlockzapperItem> BLOCKZAPPER =
+		REGISTRATE.item("handheld_blockzapper", BlockzapperItem::new)
+			.transform(CreateRegistrate.customRenderedItem(() -> BlockzapperModel::new))
+			.model(AssetLookup.itemModelWithPartials())
+			.register();
+
+	public static final ItemEntry<WorldshaperItem> WORLDSHAPER =
+		REGISTRATE.item("handheld_worldshaper", WorldshaperItem::new)
+			.transform(CreateRegistrate.customRenderedItem(() -> WorldshaperModel::new))
+			.model(AssetLookup.itemModelWithPartials())
+			.register();
+
+	public static final ItemEntry<DeforesterItem> DEFORESTER = REGISTRATE.item("deforester", DeforesterItem::new)
+		.transform(CreateRegistrate.customRenderedItem(() -> DeforesterModel::new))
+		.model(AssetLookup.itemModelWithPartials())
+		.register();
+
+	public static final ItemEntry<SymmetryWandItem> WAND_OF_SYMMETRY =
+		REGISTRATE.item("wand_of_symmetry", SymmetryWandItem::new)
+			.transform(CreateRegistrate.customRenderedItem(() -> SymmetryWandModel::new))
+			.model(AssetLookup.itemModelWithPartials())
+			.register();
+
+	public static final ItemEntry<ExtendoGripItem> EXTENDO_GRIP = REGISTRATE.item("extendo_grip", ExtendoGripItem::new)
+		.transform(CreateRegistrate.customRenderedItem(() -> ExtendoGripModel::new))
+		.model(AssetLookup.itemModelWithPartials())
+		.register();
+
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	// Schematics
 
 	static {

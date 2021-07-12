@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"_": "Missing Localizations: 41",
+=======
+	"_": "Missing Localizations: 619",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	"_": "->------------------------]  Game Elements  [------------------------<-",
 
@@ -482,8 +486,12 @@
 	"item.create.crushed_tin_ore": "砕いた錫鉱石",
 	"item.create.crushed_uranium_ore": "砕いたウラン鉱石",
 	"item.create.crushed_zinc_ore": "砕いた亜鉛鉱石",
+<<<<<<< HEAD
 	"item.create.diving_boots": "潜水ブーツ",
 	"item.create.diving_helmet": "潜水ヘルメット",
+=======
+	"item.create.deforester": "デフォレスター",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"item.create.dough": "生地",
 	"item.create.electron_tube": "電子管",
 	"item.create.empty_blaze_burner": "空のブレイズバーナー",
@@ -493,6 +501,7 @@
 	"item.create.furnace_minecart_contraption": "からくりかまど付きトロッコ",
 	"item.create.goggles": "エンジニアのゴーグル",
 	"item.create.golden_sheet": "金板",
+	"item.create.handheld_blockzapper": "携帯型ブロックザッパー",
 	"item.create.handheld_worldshaper": "携帯型ワールドシェーパー",
 	"item.create.honey_bucket": "ハチミツ入りバケツ",
 	"item.create.honeyed_apple": "リンゴのハチミツかけ",
@@ -675,8 +684,14 @@
 	"advancement.create.refined_radiance.desc": "究極の色彩、「高貴な光輝」を作る",
 	"advancement.create.chromatic_age": "色彩の時代",
 	"advancement.create.chromatic_age.desc": "光と闇のケーシングを作る",
+	"advancement.create.zapper": "風格ある建築",
+	"advancement.create.zapper.desc": "建築に役立つレーザー銃、ブロックザッパーを作る",
+	"advancement.create.upgraded_zapper": "究極の輝き",
+	"advancement.create.upgraded_zapper.desc": "ブロックザッパーを最大までアップグレードする",
 	"advancement.create.wand_of_symmetry": "輝く鏡",
 	"advancement.create.wand_of_symmetry.desc": "対象の杖を作る",
+	"advancement.create.deforester": "輝く斧",
+	"advancement.create.deforester.desc": "デフォレスターを作って、地元の森に別れを告げる",
 	"advancement.create.extendo_grip": "ビヨヨーン！",
 	"advancement.create.extendo_grip.desc": "マジックハンドを手に入れる",
 	"advancement.create.potato_cannon": "バキューン!",
@@ -738,6 +753,7 @@
 	"create.recipe.automatic_shaped": "自動定形クラフト",
 	"create.recipe.block_cutting": "自動石切",
 	"create.recipe.wood_cutting": "自動製材",
+	"create.recipe.blockzapper_upgrade": "携帯型ブロックザッパー",
 	"create.recipe.sandpaper_polishing": "紙やすりでの研磨",
 	"create.recipe.mystery_conversion": "神秘の変転",
 	"create.recipe.spout_filling": "アイテム注液口による注入",
@@ -804,6 +820,7 @@
 	"create.orientation.alongZ": "Z に沿る",
 	"create.orientation.alongX": "X に沿る",
 
+<<<<<<< HEAD
 	"create.gui.terrainzapper.title": "携帯型ブロックザッパー",
 	"create.gui.terrainzapper.searchDiagonal": "対角線にフォロー",
 	"create.gui.terrainzapper.searchFuzzy": "素材の境界を無視",
@@ -814,6 +831,22 @@
 	"create.gui.terrainzapper.pattern.chance25": "25%",
 	"create.gui.terrainzapper.pattern.chance50": "50%",
 	"create.gui.terrainzapper.pattern.chance75": "75%",
+=======
+	"create.gui.blockzapper.title": "携帯型ブロックザッパー",
+	"create.gui.blockzapper.replaceMode": "置換モード",
+	"create.gui.blockzapper.searchDiagonal": "対角線にフォロー",
+	"create.gui.blockzapper.searchFuzzy": "素材の境界を無視",
+	"create.gui.blockzapper.range": "範囲",
+	"create.gui.blockzapper.needsUpgradedAmplifier": "増幅アップグレードが必要",
+	"create.gui.blockzapper.patternSection": "模様",
+	"create.gui.blockzapper.pattern.solid": "敷き詰め",
+	"create.gui.blockzapper.pattern.checkered": "市松模様",
+	"create.gui.blockzapper.pattern.inversecheckered": "逆市松模様",
+	"create.gui.blockzapper.pattern.chance25": "25%",
+	"create.gui.blockzapper.pattern.chance50": "50%",
+	"create.gui.blockzapper.pattern.chance75": "75%",
+	"create.gui.terrainzapper.title": "携帯型ワールドシェイパー",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"create.gui.terrainzapper.placement": "配置",
 	"create.gui.terrainzapper.placement.merged": "合併",
 	"create.gui.terrainzapper.placement.attached": "添える",
@@ -822,8 +855,11 @@
 	"create.gui.terrainzapper.brush.cuboid": "直方体",
 	"create.gui.terrainzapper.brush.sphere": "球体",
 	"create.gui.terrainzapper.brush.cylinder": "円筒",
+<<<<<<< HEAD
 	"create.gui.terrainzapper.brush.surface": "表面",
 	"create.gui.terrainzapper.brush.cluster": "鉱石",
+=======
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"create.gui.terrainzapper.tool": "ツール",
 	"create.gui.terrainzapper.tool.fill": "埋立",
 	"create.gui.terrainzapper.tool.place": "設置",
@@ -833,8 +869,24 @@
 	"create.gui.terrainzapper.tool.flatten": "なだらかに",
 
 	"create.terrainzapper.shiftRightClickToSet": "シフト-右クリックで形状を選択",
+<<<<<<< HEAD
 	"create.terrainzapper.usingBlock": "使用中: %1$s",
 	"create.terrainzapper.leftClickToSet": "ブロックをスニークせず左クリックでブロックを選択",
+=======
+
+	"create.blockzapper.usingBlock": "使用中: %1$s",
+	"create.blockzapper.componentUpgrades": "コンポーネントアップグレード:",
+	"create.blockzapper.component.body": "ボディー",
+	"create.blockzapper.component.amplifier": "増幅",
+	"create.blockzapper.component.accelerator": "加速",
+	"create.blockzapper.component.retriever": "レトリーバー",
+	"create.blockzapper.component.scope": "範囲",
+	"create.blockzapper.componentTier.none": "無し",
+	"create.blockzapper.componentTier.brass": "真鍮",
+	"create.blockzapper.componentTier.chromatic": "色彩",
+	"create.blockzapper.leftClickToSet": "ブロックをスニークせず左クリックでブロックを選択",
+	"create.blockzapper.empty": "ブロック不足！",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	"create.minecart_coupling.two_couplings_max": "トロッコを2つ以上連結させることはできません",
 	"create.minecart_coupling.unloaded": "列車の一部のあるチャンクがロードされていません",
@@ -1219,6 +1271,7 @@
 
 	"_": "->------------------------]  Subtitles  [------------------------<-",
 
+<<<<<<< HEAD
 	"create.subtitle.contraption_disassemble": "からくりが止まる",
 	"create.subtitle.peculiar_bell_use": "風変わりな鐘が鳴る",
 	"create.subtitle.mixing": "混ぜる音",
@@ -1228,9 +1281,21 @@
 	"create.subtitle.crushing_1": "UNLOCALIZED: Crushing noises",
 	"create.subtitle.depot_slide": "アイテムが滑る",
 	"create.subtitle.saw_activate_stone": "メカニカルソーが動作する",
+=======
+	"create.subtitle.cogs": "UNLOCALIZED: Cogwheels rumble",
+	"create.subtitle.slime_added": "スライムがぐしゃっとつぶれる",
+	"create.subtitle.contraption_disassemble": "UNLOCALIZED: Contraption stops",
+	"create.subtitle.wrench_rotate": "UNLOCALIZED: Wrench used",
+	"create.subtitle.mixing": "UNLOCALIZED: Mixing Noises",
+	"create.subtitle.mechanical_press_activation_belt": "UNLOCALIZED: Mechanical Press bonks",
+	"create.subtitle.blockzapper_confirm": "成功音",
+	"create.subtitle.depot_slide": "UNLOCALIZED: Item slides",
+	"create.subtitle.blockzapper_place": "ブロックを発射して設置する",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"create.subtitle.blaze_munch": "ブレイズの咀嚼音",
 	"create.subtitle.funnel_flap": "ファンネルがはためく",
 	"create.subtitle.schematicannon_finish": "概略図砲が作業を終える",
+<<<<<<< HEAD
 	"create.subtitle.haunted_bell_use": "憑りつかれた鐘が鳴る",
 	"create.subtitle.scroll_value": "スクロールのカチカチ音",
 	"create.subtitle.crafter_craft": "メカニカルクラフターがクラフトする",
@@ -1254,6 +1319,17 @@
 	"create.subtitle.crafter_click": "メカニカルクラフターのカチカチ音",
 	"create.subtitle.depot_plop": "デプロイヤーにアイテムが入れられる",
 	"create.subtitle.confirm": "成功音",
+=======
+	"create.subtitle.scroll_value": "UNLOCALIZED: Scroll-input clicks",
+	"create.subtitle.mechanical_press_activation": "メカニカルプレスが作動する",
+	"create.subtitle.contraption_assemble": "UNLOCALIZED: Contraption moves",
+	"create.subtitle.crafter_craft": "UNLOCALIZED: Crafter crafts",
+	"create.subtitle.blockzapper_deny": "失敗音",
+	"create.subtitle.cranking": "UNLOCALIZED: Hand Crank turns",
+	"create.subtitle.crafter_click": "UNLOCALIZED: Crafter clicks",
+	"create.subtitle.wrench_remove": "UNLOCALIZED: Component breaks",
+	"create.subtitle.depot_plop": "UNLOCALIZED: Item lands",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 
 	"_": "->------------------------]  Item Descriptions  [------------------------<-",
@@ -1292,6 +1368,15 @@
 	"item.create.wand_of_symmetry.tooltip.control3": "スニークしながら右クリックしたとき",
 	"item.create.wand_of_symmetry.tooltip.action3": "_設定画面_を開きます。",
 
+	"item.create.handheld_blockzapper.tooltip": "携帯型ブロックザッパー",
+	"item.create.handheld_blockzapper.tooltip.summary": "離れた場所にブロックを設置または交換する新しいガジェット。",
+	"item.create.handheld_blockzapper.tooltip.control1": "ブロックを左クリックしたとき",
+	"item.create.handheld_blockzapper.tooltip.action1": "ターゲットのブロックをこのツールに設定します。",
+	"item.create.handheld_blockzapper.tooltip.control2": "ブロックを右クリックしたとき",
+	"item.create.handheld_blockzapper.tooltip.action2": "ターゲットブロックを_配置_または_置換_します。",
+	"item.create.handheld_blockzapper.tooltip.control3": "スニークしながら右クリックしたとき。",
+	"item.create.handheld_blockzapper.tooltip.action3": "_設定インターフェース_を開きます。",
+
 	"item.create.handheld_worldshaper.tooltip": "携帯型ワールドシェーパー",
 	"item.create.handheld_worldshaper.tooltip.summary": "特色ある_風景_や_地形_を作成する便利なツール。",
 	"item.create.handheld_worldshaper.tooltip.control1": "ブロックを左クリックしたとき",
@@ -1305,6 +1390,9 @@
 	"item.create.tree_fertilizer.tooltip.summary": "一般的な種類の木の成長を早めるのに適したミネラルを配合した強力な肥料。",
 	"item.create.tree_fertilizer.tooltip.condition1": "苗木に使ったとき",
 	"item.create.tree_fertilizer.tooltip.behaviour1": "_間隔の条件_に_関係なく_苗木を成長させる",
+
+	"item.create.deforester.tooltip": "デフォレスター",
+	"item.create.deforester.tooltip.summary": "一瞬で木を切り倒すことができる_輝く斧_。",
 
 	"item.create.extendo_grip.tooltip": "マジックハンド",
 	"item.create.extendo_grip.tooltip.summary": "ビヨヨーン！着用者の_射程_を大幅に_伸ばし_ます。",

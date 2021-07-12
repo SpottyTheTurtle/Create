@@ -98,7 +98,7 @@ public class ZapperInteractionHandler {
 		else
 			tag.put("BlockData", data);
 
-		AllSoundEvents.CONFIRM.playOnServer(player.world, player.getBlockPos());
+		AllSoundEvents.BLOCKZAPPER_CONFIRM.playOnServer(player.world, player.getBlockPos());
 		return true;
 	}
 

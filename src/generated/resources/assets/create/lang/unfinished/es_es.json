@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"_": "Missing Localizations: 52",
+=======
+	"_": "Missing Localizations: 620",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	"_": "->------------------------]  Game Elements  [------------------------<-",
 
@@ -482,8 +486,12 @@
 	"item.create.crushed_tin_ore": "Mineral de estaño molido",
 	"item.create.crushed_uranium_ore": "Mineral de uranio molido",
 	"item.create.crushed_zinc_ore": "Mineral de zinc molido",
+<<<<<<< HEAD
 	"item.create.diving_boots": "Botas de buceo",
 	"item.create.diving_helmet": "Casco de buceo",
+=======
+	"item.create.deforester": "Deforestador",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"item.create.dough": "Masilla",
 	"item.create.electron_tube": "Tubo de electrones",
 	"item.create.empty_blaze_burner": "Quemador de blaze vacío",
@@ -493,12 +501,20 @@
 	"item.create.furnace_minecart_contraption": "Artilugio de vagoneta de horno",
 	"item.create.goggles": "Gafas del constructor",
 	"item.create.golden_sheet": "Lámina de oro",
+<<<<<<< HEAD
 	"item.create.handheld_worldshaper": "Worldshaper Creativo",
 	"item.create.honey_bucket": "Cubo con miel",
 	"item.create.honeyed_apple": "Manzana con miel",
 	"item.create.incomplete_cogwheel": "UNLOCALIZED: Incomplete Cogwheel",
 	"item.create.incomplete_large_cogwheel": "UNLOCALIZED: Incomplete Large Cogwheel",
 	"item.create.incomplete_precision_mechanism": "UNLOCALIZED: Incomplete Precision Mechanism",
+=======
+	"item.create.handheld_blockzapper": "Blockzapper",
+	"item.create.handheld_worldshaper": "Worldshaper",
+	"item.create.honey_bucket": "Cubo de miel",
+	"item.create.honeyed_apple": "UNLOCALIZED: Honeyed Apple",
+	"item.create.integrated_circuit": "Chip de circuito integrado",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"item.create.iron_sheet": "Lámina de hierro",
 	"item.create.linked_controller": "Controlador enlazado",
 	"item.create.minecart_contraption": "Artilugio de vagoneta",
@@ -675,12 +691,23 @@
 	"advancement.create.refined_radiance.desc": "Crea un resplandor refinado, una poderosa sustancia cromática.",
 	"advancement.create.chromatic_age": "La edad cromática",
 	"advancement.create.chromatic_age.desc": "Crear bloques de revestimiento de la luz y la oscuridad.",
+	"advancement.create.zapper": "Construir con estilo",
+	"advancement.create.zapper.desc": "Construye un Blockzapper. Una pistola láser radiante que te ayuda a construir.",
+	"advancement.create.upgraded_zapper": "Radiante sobrecarga",
+	"advancement.create.upgraded_zapper.desc": "Crear y activar un Blockzapper totalmente mejorado.",
 	"advancement.create.wand_of_symmetry": "Espejos radiantes",
 	"advancement.create.wand_of_symmetry.desc": "Crear un bastón de simetría.",
+<<<<<<< HEAD
 	"advancement.create.extendo_grip": "¡Boioioing!",
 	"advancement.create.extendo_grip.desc": "Hazte con un agarre extentido.",
 	"advancement.create.potato_cannon": "Fwoomp!",
 	"advancement.create.potato_cannon.desc": "Defeat an enemy with your Potato Cannon.",
+=======
+	"advancement.create.deforester": "Picado radiante",
+	"advancement.create.deforester.desc": "Crea un Deforestador y despídete del bosque local.",
+	"advancement.create.extendo_grip": "Boioioing!",
+	"advancement.create.extendo_grip.desc": "Hazte con un Agarre extentido.",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"advancement.create.dual_extendo_grip": "La última edad del boing",
 	"advancement.create.dual_extendo_grip.desc": "Doble empuñadura extendida para un alcance sobrehumano.",
 	"advancement.create.eob": "Fin de la beta",
@@ -738,6 +765,7 @@
 	"create.recipe.automatic_shaped": "Elaboración automatizada de productos con forma",
 	"create.recipe.block_cutting": "Corte de bloques",
 	"create.recipe.wood_cutting": "Corte de maderas",
+	"create.recipe.blockzapper_upgrade": "Blockzapper",
 	"create.recipe.sandpaper_polishing": "Pulido con papel de lija",
 	"create.recipe.mystery_conversion": "Conversión misteriosa",
 	"create.recipe.spout_filling": "Llenar por el pico",
@@ -804,6 +832,7 @@
 	"create.orientation.alongZ": "A lo largo de Z",
 	"create.orientation.alongX": "A lo largo de X",
 
+<<<<<<< HEAD
 	"create.gui.terrainzapper.title": "Blockzapper",
 	"create.gui.terrainzapper.searchDiagonal": "Seguir diagonales",
 	"create.gui.terrainzapper.searchFuzzy": "Ignorar los bordes del material",
@@ -815,6 +844,23 @@
 	"create.gui.terrainzapper.pattern.chance50": "50% Roll",
 	"create.gui.terrainzapper.pattern.chance75": "75% Roll",
 	"create.gui.terrainzapper.placement": "Ubicación",
+=======
+	"create.gui.blockzapper.title": "Blockzapper",
+	"create.gui.blockzapper.replaceMode": "Modo de sustitución",
+	"create.gui.blockzapper.searchDiagonal": "Seguir las diagonales",
+	"create.gui.blockzapper.searchFuzzy": "Ignorar los bordes del material",
+	"create.gui.blockzapper.range": "Alcance del margen de maniobra",
+	"create.gui.blockzapper.needsUpgradedAmplifier": "Requiere un amplificador mejorado",
+	"create.gui.blockzapper.patternSection": "Patrón",
+	"create.gui.blockzapper.pattern.solid": "Sólido",
+	"create.gui.blockzapper.pattern.checkered": "Tablero de ajedrez",
+	"create.gui.blockzapper.pattern.inversecheckered": "Tablero de ajedrez invertido",
+	"create.gui.blockzapper.pattern.chance25": "25% Roll",
+	"create.gui.blockzapper.pattern.chance50": "50% Roll",
+	"create.gui.blockzapper.pattern.chance75": "75% Roll",
+	"create.gui.terrainzapper.title": "Worldshaper",
+	"create.gui.terrainzapper.placement": "Colocación",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"create.gui.terrainzapper.placement.merged": "Fusionado",
 	"create.gui.terrainzapper.placement.attached": "Adjuntado",
 	"create.gui.terrainzapper.placement.inserted": "Insertado",
@@ -822,8 +868,11 @@
 	"create.gui.terrainzapper.brush.cuboid": "Cuboide",
 	"create.gui.terrainzapper.brush.sphere": "Esfera",
 	"create.gui.terrainzapper.brush.cylinder": "Cilindro",
+<<<<<<< HEAD
 	"create.gui.terrainzapper.brush.surface": "Superficie",
 	"create.gui.terrainzapper.brush.cluster": "Grupo",
+=======
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 	"create.gui.terrainzapper.tool": "Herramienta",
 	"create.gui.terrainzapper.tool.fill": "Llenar",
 	"create.gui.terrainzapper.tool.place": "Ubicar",
@@ -832,9 +881,26 @@
 	"create.gui.terrainzapper.tool.overlay": "Superponer",
 	"create.gui.terrainzapper.tool.flatten": "Aplanar",
 
+<<<<<<< HEAD
 	"create.terrainzapper.shiftRightClickToSet": "[Mayús izdo.] + clic derecho para seleccionar una forma",
 	"create.terrainzapper.usingBlock": "Usando: %1$s",
 	"create.terrainzapper.leftClickToSet": "Clic izquierdo a un bloque para establecer el material",
+=======
+	"create.terrainzapper.shiftRightClickToSet": "Shift+Clic con el botón derecho para seleccionar una forma",
+
+	"create.blockzapper.usingBlock": "Utilizando: %1$s",
+	"create.blockzapper.componentUpgrades": "Mejoras de componentes:",
+	"create.blockzapper.component.body": "Cuerpo",
+	"create.blockzapper.component.amplifier": "Amplificador",
+	"create.blockzapper.component.accelerator": "Acelerador",
+	"create.blockzapper.component.retriever": "Recuperador",
+	"create.blockzapper.component.scope": "Mira telescópica",
+	"create.blockzapper.componentTier.none": "Ninguno",
+	"create.blockzapper.componentTier.brass": "Latón",
+	"create.blockzapper.componentTier.chromatic": "Cromático",
+	"create.blockzapper.leftClickToSet": "Clic izquierdo en un bloque para establecer el material",
+	"create.blockzapper.empty": "Sin bloques!",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 	"create.minecart_coupling.two_couplings_max": "Las vagonetas no pueden tener más de dos enganches cada una",
 	"create.minecart_coupling.unloaded": "Algunas partes de su tren parecen estar en chunks no cargados",
@@ -1219,6 +1285,7 @@
 
 	"_": "->------------------------]  Subtitles  [------------------------<-",
 
+<<<<<<< HEAD
 	"create.subtitle.contraption_disassemble": "",
 	"create.subtitle.peculiar_bell_use": "",
 	"create.subtitle.mixing": "",
@@ -1254,6 +1321,30 @@
 	"create.subtitle.crafter_click": "",
 	"create.subtitle.depot_plop": "",
 	"create.subtitle.confirm": "",
+=======
+	"create.subtitle.cogs": "UNLOCALIZED: Cogwheels rumble",
+	"create.subtitle.slime_added": "Slime aplastado",
+	"create.subtitle.contraption_disassemble": "UNLOCALIZED: Contraption stops",
+	"create.subtitle.wrench_rotate": "UNLOCALIZED: Wrench used",
+	"create.subtitle.mixing": "UNLOCALIZED: Mixing Noises",
+	"create.subtitle.mechanical_press_activation_belt": "UNLOCALIZED: Mechanical Press bonks",
+	"create.subtitle.blockzapper_confirm": "Ding afirmativo",
+	"create.subtitle.depot_slide": "UNLOCALIZED: Item slides",
+	"create.subtitle.blockzapper_place": "Los bloques se colocan en su sitio",
+	"create.subtitle.blaze_munch": "Blaze mastica felizmente",
+	"create.subtitle.schematicannon_launch_block": "Disparos de Schematicannon",
+	"create.subtitle.funnel_flap": "UNLOCALIZED: Funnel Flaps",
+	"create.subtitle.schematicannon_finish": "Acabados de Schematicannon",
+	"create.subtitle.scroll_value": "UNLOCALIZED: Scroll-input clicks",
+	"create.subtitle.mechanical_press_activation": "La Prensa Mecánica se activa",
+	"create.subtitle.contraption_assemble": "UNLOCALIZED: Contraption moves",
+	"create.subtitle.crafter_craft": "UNLOCALIZED: Crafter crafts",
+	"create.subtitle.blockzapper_deny": "Boop declinante",
+	"create.subtitle.cranking": "UNLOCALIZED: Hand Crank turns",
+	"create.subtitle.crafter_click": "UNLOCALIZED: Crafter clicks",
+	"create.subtitle.wrench_remove": "UNLOCALIZED: Component breaks",
+	"create.subtitle.depot_plop": "UNLOCALIZED: Item lands",
+>>>>>>> parent of 8fff3d674 (The great second purge of Tools)
 
 
 	"_": "->------------------------]  Item Descriptions  [------------------------<-",
@@ -1292,6 +1383,15 @@
 	"item.create.wand_of_symmetry.tooltip.control3": "[Mayús izdo.] + clic derecho",
 	"item.create.wand_of_symmetry.tooltip.action3": "Abre la interfaz de configuración.",
 
+	"item.create.handheld_blockzapper.tooltip": "BLOCKZAPPER",
+	"item.create.handheld_blockzapper.tooltip.summary": "Novedoso artefacto para colocar o intercambiar bloques a distancia",
+	"item.create.handheld_blockzapper.tooltip.control1": "Click izquierdo en un bloque",
+	"item.create.handheld_blockzapper.tooltip.action1": "Establece los bloques colocados por la herramienta en el bloque objetivo",
+	"item.create.handheld_blockzapper.tooltip.control2": "Click derecho en un bloque",
+	"item.create.handheld_blockzapper.tooltip.action2": "_Coloca_ o _Reemplaza_ el bloque objetivo",
+	"item.create.handheld_blockzapper.tooltip.control3": "Click derecho mientras se agacha",
+	"item.create.handheld_blockzapper.tooltip.action3": "Abre la _Interfaz de Configuración_",
+
 	"item.create.handheld_worldshaper.tooltip": "WORLDSHAPER",
 	"item.create.handheld_worldshaper.tooltip.summary": "Práctica herramienta para crear _paisajes_ y _características del terreno_.",
 	"item.create.handheld_worldshaper.tooltip.control1": "Cuando se hace clic izquierdo en un bloque",
@@ -1305,6 +1405,9 @@
 	"item.create.tree_fertilizer.tooltip.summary": "Una potente combinación de minerales adecuada para acelerar el crecimiento de los tipos de árboles más comunes.",
 	"item.create.tree_fertilizer.tooltip.condition1": "Cuando se utiliza en un árbol joven",
 	"item.create.tree_fertilizer.tooltip.behaviour1": "Hace crecer los árboles _independientemente_ de sus condiciones de _espacio_.",
+
+	"item.create.deforester.tooltip": "DEFORESTADOR",
+	"item.create.deforester.tooltip.summary": "Un hacha _radiante_ capaz de talar árboles en una fracción de segundo",
 
 	"item.create.extendo_grip.tooltip": "AGARRE EXTENDIDO",
 	"item.create.extendo_grip.tooltip.summary": "¡Boioioing! Aumenta enormemente la _distancia de alcance_ del portador. Can be powered with Air Pressure from a _Copper_ _Backtank_",
